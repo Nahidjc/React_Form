@@ -6,14 +6,13 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { Field } from 'formik';
 const Signup = () => {
-    const paperStyle = { height: '60vh', width: '350px', padding: '30px 20px', margin: '20vh auto' };
+    const paperStyle = { height: '60vh', width: '300px', padding: '20px 20px', margin: 'auto' };
     const avatarStyle = { backgroundColor: "#149593", }
     const marginTop = { marginTop: "20px" }
-    const boxStyle = { paddingLeft: "0px", marginTop: "5px" };
     return (
         <div>
             <Grid>
-                <Paper elevation={10} style={paperStyle}>
+                <Paper style={paperStyle}>
                     <Grid align="center">
 
                         <Avatar style={avatarStyle}>

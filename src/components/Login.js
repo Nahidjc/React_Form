@@ -2,13 +2,13 @@ import { Avatar, Button, Checkbox, FormControlLabel, Grid, Link, Paper, TextFiel
 import React from 'react';
 import LockIcon from '@material-ui/icons/Lock';
 const Login = () => {
-    const paperStyle = { padding: 20, height: '60vh', width: '280px', margin: '20vh auto', };
+    const paperStyle = { padding: 20, height: '60vh', width: '300px', margin: 'auto', };
     const AvatarStyle = { backgroundColor: '#47eab9', };
     const btnStyle = { margin: "8px 0" }
     return (
         <div>
             <Grid>
-                <Paper elevation={10} style={paperStyle}>
+                <Paper style={paperStyle}>
                     <Grid align="center">
                         <Avatar style={AvatarStyle}>
                             <LockIcon />

@@ -1,11 +1,10 @@
 import './App.css';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import Combine from './components/Combine';
 
 function App() {
   return (
     <div className="App">
-      <Signup />
+      <Combine />
     </div>
   );
 }
